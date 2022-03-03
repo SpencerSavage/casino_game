@@ -1,5 +1,4 @@
 require_relative 'math'
-# require_relative 'deck'
 
 class Hilo
 include Math

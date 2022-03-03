@@ -76,37 +76,3 @@ attr_accessor :user
     slots_game
   end
 end
-
-# def dice_game
-#   puts " - How much will you wager? - "
-#   wager = gets.strip.to_f
-#   puts " - Place your bet - "
-#   user_guess = gets.strip.to_i
-#   roll
-#   show_sum
-#   if user_guess == @dice_total
-#     puts " --Winner!-- "
-#     puts " - Your Bankroll was: $ #{@user.bank} - "
-#     winnings = @user.bank + wager
-#     @user.change_wallet(winnings)
-#     puts " - Your Bankroll is now: $ #{@user.bank} - "
-#   else 
-#     puts " - Sorry, maybe next time - "
-#     puts " - Your Bankroll was: $ #{@user.bank} - "
-#     losings = @user.bank - wager
-#     @user.change_wallet(losings)
-#     puts " - Your Bankroll is now: $ #{@user.bank} - "
-#   end
-
-#   puts " - Would you like to play again? - "
-#   puts "1. Play again"
-#   puts "2. Exit"
-#   user_input = gets.strip.to_i
-#   if user_input == 1
-#     loop_this_bitch
-#   elsif user_input == 2
-#     exit
-#   else
-#     " - - Error: Please choose a valid menu item - - "
-#   end
-# end
